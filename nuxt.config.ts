@@ -8,17 +8,15 @@ export default defineNuxtConfig({
   ],
 
   tailwindcss: {
-    cssPath: '~/assets/css/main.css',
     configPath: 'tailwind.config.js'
+    // Removed cssPath line
   },
 
   nitro: {
     preset: 'cloudflare-pages'
   },
 
-  css: [
-    '~/assets/css/main.css'
-  ],
+  // Removed css array entirely
 
   build: {
     transpile: ['echarts', 'vue-echarts', 'resize-detector']
