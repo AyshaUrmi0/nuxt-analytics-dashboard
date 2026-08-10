@@ -1,5 +1,6 @@
 # Nuxt dev/build outputs
 .output
+.data
 .nuxt
 .nitro
 .cache
@@ -9,15 +10,15 @@ dist
 node_modules
 
 # Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+logs
+*.log
 
-# Environment & local files
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
 .env
 .env.*
 !.env.example
-
-# OS metadata
-.DS_Store
-Thumbs.db
