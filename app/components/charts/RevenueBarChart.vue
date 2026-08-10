@@ -32,31 +32,67 @@ const renderChart = () => {
       ],
     },
 
-    yAxis: {
-      type: "value",
-    },
-
-    series: [
+    yAxis: [
       {
+        type: "value",
         name: "Revenue",
-        type: "bar",
-        emphasis: {
-          itemStyle: {
-            color: "#ff6600",
-            shadowBlur: 10,
-            shadowColor: "rgba(0, 0, 0, 0.3)",
-          },
-        },
-        data: [
-          12000,
-          18000,
-          15000,
-          22000,
-          26000,
-          30000,
-        ],
+      },
+      {
+        type: "value",
+        name: "Growth (%)",
+        position: "right",
       },
     ],
+
+   series: [
+    
+  {
+    name: "Growth",
+    type: "line",
+    yAxisIndex: 1,
+
+    data: [
+      10,
+      14,
+      12,
+      18,
+      22,
+      25,
+    ],
+
+    smooth: true,
+
+    lineStyle: {
+      width: 3,
+    },
+
+    symbolSize: 8,
+  },
+  {
+    name: "Revenue",
+    type: "bar",
+
+    data: [
+      12000,
+      18000,
+      15000,
+      22000,
+      26000,
+      30000,
+    ],
+
+    itemStyle: {
+      color: "#3b82f6",
+    },
+
+    emphasis: {
+      itemStyle: {
+        color: "#8b5cf6",
+      },
+    },
+  },
+
+],
   }
 
   chart.setOption(option)

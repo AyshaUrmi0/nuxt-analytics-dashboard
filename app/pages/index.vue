@@ -48,6 +48,9 @@
  <ChartsRevenueBarChart />
 
 </div>
+<div class="mt-6">
+  <ChartsSalesPieChart />
+</div>
       </main>
     </div>
   </div>
