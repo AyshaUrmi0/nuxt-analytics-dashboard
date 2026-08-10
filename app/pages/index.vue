@@ -51,6 +51,9 @@
 <div class="mt-6">
   <ChartsSalesPieChart />
 </div>
+<div class="mt-6">
+  <ChartsResponseTimeBoxPlot />
+</div>
       </main>
     </div>
   </div>
