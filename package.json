@@ -11,7 +11,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "echarts": "^6.1.0",
+    "node-fetch": "^3.3.2",
     "nuxt": "^4.5.2",
     "vue": "^3.5.40",
     "vue-router": "^5.2.0"
