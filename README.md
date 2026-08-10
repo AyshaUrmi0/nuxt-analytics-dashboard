@@ -1,5 +1,7 @@
 # Nuxt Minimal Starter
 
+🚀 **Live Demo:** [https://nuxt-analytics-dashboard.ayshaismail021.workers.dev/](https://nuxt-analytics-dashboard.ayshaismail021.workers.dev/)
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
